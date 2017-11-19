@@ -1,0 +1,16 @@
+*
+!.gitignore
+
+# Images #
+##########
+*.png
+
+# Slideshows #
+#############
+*.pptx
+*.ppt
+
+# Spreadsheets #
+###############
+*.csv
+
