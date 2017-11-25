@@ -5,7 +5,7 @@ Go all the way back in time or specify two dates and watch the goodness happen a
 
 ## Distinguishing Features
 
-- **Multi-threaded** performance for rapid data collection from **multiple pages** simultaenously
+- **Multi-threaded** for rapid data collection from **multiple pages _simultaneously_** (as many as you want!)
 - Collect detailed performance metrics on multiple owned business pages **automatically** via the [insights](https://developers.facebook.com/docs/graph-api/reference/v2.11/insights) and [video insights](https://developers.facebook.com/docs/graph-api/reference/video/video_insights/) endpoints
 - Retrieve number of public shares of a link by *anyone* across Facebook via the [URL Object](https://developers.facebook.com/docs/graph-api/reference/v2.11/url/)
 - **Custom** metrics computed: 
