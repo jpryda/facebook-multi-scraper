@@ -30,6 +30,10 @@ PAGE_IDS_TO_SCRAPE = [
         'washingtonpost',
         'theguardian',
         'timesandsundaytimes',
+        'msnbc',
+        'CBSNews',
+        'TheIndependentOnline',
+        'ABCNews'
         ]
 
 # Additional personal metrics are pulled for owned pages in keys below who also exist in PAGE_IDS_TO_SCRAPE
