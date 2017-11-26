@@ -56,8 +56,8 @@ Grab the @'handles' or in url (e.g. 'vicenews' below).
 ## Execution
 Specify number of days back from present:
 
-`python get_fb_data.py post 5`  (Used on public & owned pages.  Includes video posts but does not get video-specific data)
-`python get_fb_data.py video 5` (Owned pages only)
+`python get_fb_data.py post 5`  (Public & owned pages)    
+`python get_fb_data.py video 5` (Owned pages only for video-specific data)
 
 Specify two dates (inclusive) in yyyy-mm-dd format:
 
