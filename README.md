@@ -43,23 +43,21 @@ Grab the @'handles' or in url (e.g. 'vicenews' below).
   
 <p align="center"><img src="/res/page_handle_location.png?raw=true" height="250"></p>
 
-**2)** Grab your own *temporary* user token [here](https://developers.facebook.com/tools/explorer) and place inside `OWNED_PAGES_TOKENS`:  **Get Token -> Get User Token -> Get Access Token**
+**2)** Grab your own *temporary* user token [here](https://developers.facebook.com/tools/explorer) and place inside `OWNED_PAGES_TOKENS`:  
+**Get Token -> Get User Token -> Get Access Token**
 
 `OWNED_PAGES_TOKENS` is the dictionary that stores the token(s) necessary to scrape public data.  If the token is a [**permanent token**](https://stackoverflow.com/a/28418469) for a business page, it is used to scrape private data provided that the page is placed in `PAGE_IDS_TO_SCRAPE` and its corresponding key is identically named in this dictionary.
 
-**3)** Install [Homebrew](https://brew.sh/) and run `brew install python`
+**3)** OSX users should have installed [Homebrew](https://brew.sh/) and python with `brew install python`
 
-**4)** `pip install requests scipy pandas`
+**4)** Install python dependencies with `pip install requests scipy pandas`
 
 
 ## Execution
 Specify number of days back from present:
 
-`python get_fb_data.py post 5`  
-`python get_fb_data.py video 5`
-
-(The `post` option does include video posts on the page but does not get video-specific data).
-
+`python get_fb_data.py post 5`  (Used on public & owned pages.  Includes video posts but does not get video-specific data)
+`python get_fb_data.py video 5` (Owned pages only)
 
 Specify two dates (inclusive) in yyyy-mm-dd format:
 
