@@ -1,6 +1,6 @@
 # Facebook Scraper For Social Analytics from Multiple Pages
 
-Scrape public Facebook pages en masse, automatically fetch more detailed insights for owned pages' posts *and* videos and see what content strikes well. 
+Scrape **multiple** public Facebook pages en masse, automatically fetch more detailed insights for owned pages' posts and videos to see what content strikes well.
 Go all the way back in time or specify two dates and watch the goodness happen at lightning speed via multi-threading!  
 
 <p align="center"><img src="/res/sample_run.gif?raw=true" height="300"></p>
