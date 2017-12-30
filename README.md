@@ -50,9 +50,10 @@ Grab the @'handles' or in url (e.g. 'vicenews' below).
 
 `OWNED_PAGES_TOKENS` is the dictionary that stores the token(s) necessary to scrape public data.  If the token is a [**permanent token**](https://stackoverflow.com/a/28418469) for a business page, it is used to scrape private data provided that the page is placed in `PAGE_IDS_TO_SCRAPE` and its corresponding key is identically named in this dictionary.
 
-**3)** OSX users should have installed [Homebrew](https://brew.sh/) and python with `brew install python`
+**3)** Install python dependencies with `pip install requests scipy pandas`
 
-**4)** Install python dependencies with `pip install requests scipy pandas`
+**N.B** OSX users should have installed [Homebrew](https://brew.sh/) and python with `brew install python`
+
 
 
 ## Execution
